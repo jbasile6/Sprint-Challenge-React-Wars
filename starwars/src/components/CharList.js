@@ -5,14 +5,19 @@ import Character from './Character';
 
 
 const CharList = props => {
-    const sortedList = props.starwarsChar.sort((a, b) => a.name - b.name);
-    //sorts list by alphabetical order of names^^^
+    const sortedList = props.dataArray.sort((a, b) => b.mass - a.mass);
+    //sorts list into descending order by weight^^^
     return (
         <div className="character-list">
-        {sortedList.map(character => (
-            <Character />
-        ))}
-        
+            <h2 className="Header">Star Wars Characters</h2>
+            {sortedList.map(character => (
+
+                <Character
+                    key={character.id}
+                    item={character}
+                />
+            ))}
+
         </div>
     );
 }
