@@ -6,3 +6,37 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+
+.character-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75%;
+  background-color: rgba(0, 0, 0, .3);
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 20px 10px;
+  align-items: center;
+  
+}
+
+.character-list h2 {
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.character-box {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 15px;
+  width: 45%;
+  margin: 10px 10px;
+  border: 1px solid green;
+}
+
+
+
+.Darth {
+  border: 1px solid red;
+}

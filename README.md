@@ -24,13 +24,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+React JS is an object based language that uses DOM manipulation to take in large amounts of data and using components to turn that data into reusable, functional components. Data is stored in the state of the parent class constructor and can be passed down to child constructors/components through as props.
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+With react, you don't build a webpage with vanilla HTML and CSS so you have to take a different approach to building out the layout of the page. You have to come up with a plan to break the components into pieces that fit together to become the webpage or part of a webpage that you want. First step is breaking the UI into component hierarchy, then building a static version in react. React is about one way data flow so planning your components/functionality ahead of time is important.
+
+- [x] Describe state.
+
+State, like props, are plain JavaScript objects. They both hold information that affects the output of render. State is created and managed inside of the component. By default a component has no state. The state is mutable.
+
+- [x] Describe props.
+
+Props are passed into the component rather than created and stored inside of them. Props are not mutable.
 
 ## Project Set Up
 
